@@ -1,0 +1,25 @@
+{
+  "name": "matrix.public.dappnode.eth",
+  "version": "0.0.1",
+  "description": "Matrix synapse server implementation",
+  "avatar": "avatar.png",
+  "type": "service",
+  "image": {
+    "path": "",
+    "hash": "",
+    "size": "",
+    "restart": "always",
+    "volumes": [
+      "matrixpublicdappnodeeth_data:/data"
+    ],
+    "ports": [
+      "8448:8448"
+    ],
+    "keywords": [
+      "messaging,matrix,synapse"
+    ]
+  },
+  "author": "vdo",
+  "license": "",
+  "dependencies": {}
+}

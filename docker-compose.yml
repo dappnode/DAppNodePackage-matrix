@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+    matrix.public.dappnode.eth:
+        image: 'matrix.public.dappnode.eth:0.0.1'
+        build: ./build
+        volumes:
+            - 'matrixpublicdappnodeeth_data:/data'
+        ports:
+            - '8448'
+volumes:
+    matrixpublicdappnodeeth_data: {}

@@ -2,18 +2,23 @@
   "name": "matrix.public.dappnode.eth",
   "version": "0.0.1",
   "description": "Matrix synapse server implementation",
-  "avatar": "avatar.png",
+  "avatar": "/ipfs/QmVD2rfV1PRn9ACrhcFhqz3YiBJpGp2y4jsLEK7vxv9jid",
   "type": "service",
   "image": {
-    "path": "",
-    "hash": "",
-    "size": "",
+    "path": "matrix.public.dappnode.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmSUiTXYrdAyWapHV2pS2MwAXqkqE4DMtKsnYJfVg5uY63",
+    "size": 38386980,
     "restart": "always",
     "volumes": [
       "matrixpublicdappnodeeth_data:/data"
     ],
     "ports": [
       "8448:8448"
+    ],
+    "environment": [
+      "SYNAPSE_SERVER_NAME=",
+      "SYNAPSE_REPORT_STATS=true",
+      "SYNAPSE_ENABLE_REGISTRATION=true"
     ],
     "keywords": [
       "messaging,matrix,synapse"

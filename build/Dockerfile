@@ -12,7 +12,7 @@
 #
 
 ARG PYTHON_VERSION=3
-ARG SYNAPSE_TAG=v0.99.0
+ARG SYNAPSE_TAG=v0.99.3
 
 ###
 ### Stage 0: builder
